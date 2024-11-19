@@ -1,0 +1,6 @@
+2024/11/19-09:34:50.114 2340 Reusing MANIFEST C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/19-09:34:50.115 2340 Recovering log #3
+2024/11/19-09:34:50.122 2340 Reusing old log C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2024/11/19-09:34:54.574 2fe0 Level-0 table #5: started
+2024/11/19-09:34:54.586 2fe0 Level-0 table #5: 1450949 bytes OK
+2024/11/19-09:34:54.590 2fe0 Delete type=0 #3

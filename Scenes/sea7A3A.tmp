@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbn7lr4al08hs"]
+
+[ext_resource type="Texture2D" uid="uid://bt63v32tvud3j" path="res://Assets/srch-bg1.png" id="1_1luce"]
+[ext_resource type="Script" path="res://Scripts/search_bar.gd" id="1_06nbs"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_06nbs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(252, 22)
+scale = Vector2(0.635916, 0.402344)
+texture = ExtResource("1_1luce")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_top = 2.0
+offset_right = 502.0
+offset_bottom = 42.0
+placeholder_text = "Search here..."
+
+[connection signal="gui_input" from="TextEdit" to="." method="_on_text_edit_gui_input"]

@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://ch1ps0xshswly"]
+
+[ext_resource type="Script" path="res://browse.gd" id="1_8ecm1"]
+[ext_resource type="Texture2D" uid="uid://b7a4504cp8htv" path="res://icon.svg" id="2_5wkyk"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_8ecm1")
+
+[node name="CEF" type="GDCef" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 28.85
+anchor_bottom = 16.175
+offset_right = -0.00012207
+offset_bottom = -6.10352e-05
+
+[node name="Icon" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(182, 153)
+texture = ExtResource("2_5wkyk")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(157, 369)
+texture = ExtResource("2_5wkyk")
