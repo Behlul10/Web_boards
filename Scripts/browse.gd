@@ -8,6 +8,16 @@ const HOME_PAGE = "https://google.com"
 var current_browser = null
 var mouse_pressed: bool = false
 
+@onready var node_container = $NodeOrganizer  # A `Node2D` node under your main scene
+
+func _on_add_button_pressed():
+	var sticky_note_scene = preload("res://Scenes/StickyNote.tscn")  # Path to your sticky note scene
+	var new_sticky_note = sticky_note_scene.instantiate()
+	new_sticky_note.global_position = Vector2(200, 200)  # Example starting position
+	node_container.add_child(new_sticky_note)
+
+
+
 # Function to create a default HTML page
 func create_default_page():
 	var file = FileAccess.open(DEFAULT_PAGE, FileAccess.WRITE)
@@ -84,3 +94,37 @@ func _ready():
 
 	# Create the browser and load the home page
 	current_browser = await create_browser(HOME_PAGE)
+
+#--------------SAVING DATA------------------------------------------------------------
+func save_data():
+	var data = []
+	for child in node_container.get_children():
+		if child is Node2D:
+			data.append({
+				"type": child.name,  # e.g., "StickyNote"
+				"position": child.global_position,
+				"content": child.get_child(0).get_child(0).text  # Assuming TextEdit
+			})
+	var file = FileAccess.open("user://save_data.json", FileAccess.WRITE)
+	var json = JSON.new()  # Create an instance of JSON
+	file.store_string(json.stringify(data))  # Use json.stringify() to serialize the data
+	file.close()
+
+func load_data():
+	if FileAccess.file_exists("user://save_data.json"):
+		var file = FileAccess.open("user://save_data.json", FileAccess.READ)
+		var json = JSON.new()  # Create an instance of JSON
+		var result = json.parse(file.get_as_text())  # Use json.parse() to deserialize the data
+		file.close()
+
+		if result.error == OK:
+			var data = result.result
+			for item in data: 
+				if item["type"] == "StickyNote":
+					var sticky_note_scene = preload("res://Scenes/StickyNote.tscn")
+					var sticky_note = sticky_note_scene.instantiate()
+					sticky_note.global_position = item["position"]
+					sticky_note.get_child(0).get_child(0).text = item["content"]  # Assuming TextEdit
+					node_container.add_child(sticky_note)
+		else:
+			print("Error parsing JSON: ", result.error_string)

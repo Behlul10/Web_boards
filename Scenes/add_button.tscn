@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://b10yfjp5r5hy"]
+
+[ext_resource type="Script" path="res://add_button.gd" id="1_3myhc"]
+[ext_resource type="Script" path="res://add_sticky_button.gd" id="2_peeng"]
+
+[node name="Add Button" type="Button"]
+offset_right = 35.0
+offset_bottom = 37.0
+text = "+"
+script = ExtResource("1_3myhc")
+
+[node name="New_Tab_Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_right = 126.0
+offset_bottom = 36.0
+text = "New Tab"
+
+[node name="New_Sticky_Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 134.0
+offset_right = 282.0
+offset_bottom = 34.0
+text = "New Sticky Note"
+script = ExtResource("2_peeng")
+
+[node name="TextEdit" type="TextEdit" parent="New_Sticky_Button"]
+layout_mode = 0
+offset_left = 157.0
+offset_right = 349.21
+offset_bottom = 167.49
+scale = Vector2(0.983607, 1)
+placeholder_text = "Type here!"

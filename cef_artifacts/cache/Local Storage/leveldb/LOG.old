@@ -1,14 +1,5 @@
-2024/11/19-11:21:53.479 29a4 Reusing MANIFEST C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\Local Storage\leveldb/MANIFEST-000001
-2024/11/19-11:21:53.487 29a4 Recovering log #47
-2024/11/19-11:21:53.488 29a4 Level-0 table #49: started
-2024/11/19-11:21:53.506 29a4 Level-0 table #49: 131683 bytes OK
-2024/11/19-11:21:53.511 29a4 Delete type=0 #47
-2024/11/19-11:21:53.512 2088 Compacting 4@0 + 1@1 files
-2024/11/19-11:21:53.524 2088 Generated table #51@0: 353 keys, 384470 bytes
-2024/11/19-11:21:53.524 2088 Compacted 4@0 + 1@1 files => 384470 bytes
-2024/11/19-11:21:53.526 2088 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/11/19-11:21:53.527 2088 Delete type=2 #38
-2024/11/19-11:21:53.527 2088 Delete type=2 #41
-2024/11/19-11:21:53.527 2088 Delete type=2 #43
-2024/11/19-11:21:53.527 2088 Delete type=2 #46
-2024/11/19-11:21:53.527 2088 Delete type=2 #49
+2024/11/20-01:39:31.429 70ac Reusing MANIFEST C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\Local Storage\leveldb/MANIFEST-000001
+2024/11/20-01:39:31.436 70ac Recovering log #50
+2024/11/20-01:39:31.436 70ac Level-0 table #53: started
+2024/11/20-01:39:31.443 70ac Level-0 table #53: 42897 bytes OK
+2024/11/20-01:39:31.449 70ac Delete type=0 #50

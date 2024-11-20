@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://ch1ps0xshswly"]
+[gd_scene load_steps=7 format=3 uid="uid://ch1ps0xshswly"]
 
 [ext_resource type="Script" path="res://Scripts/browse.gd" id="1_uvr43"]
 [ext_resource type="Texture2D" uid="uid://b7a4504cp8htv" path="res://Assets/icon.svg" id="2_2t17t"]
 [ext_resource type="PackedScene" uid="uid://bbn7lr4al08hs" path="res://Scenes/searchBar.tscn" id="3_y7bs6"]
+[ext_resource type="Script" path="res://add_button.gd" id="4_mdkde"]
+[ext_resource type="Script" path="res://add_sticky_button.gd" id="5_0qw2d"]
+[ext_resource type="Script" path="res://node_2d.gd" id="6_jjqlx"]
 
 [node name="GUI" type="Control"]
 layout_mode = 3
@@ -36,10 +39,43 @@ position = Vector2(182, 153)
 texture = ExtResource("2_2t17t")
 
 [node name="SearchBar" parent="." instance=ExtResource("3_y7bs6")]
-visible = false
 offset_left = 324.0
 offset_top = 287.0
 offset_right = 833.0
 offset_bottom = 327.0
+
+[node name="Add Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 55.0
+offset_right = 93.0
+offset_bottom = 38.0
+text = "+_+"
+script = ExtResource("4_mdkde")
+
+[node name="New_Sticky_Note" type="Button" parent="Add Button"]
+layout_mode = 0
+offset_left = 45.0
+offset_right = 84.0
+offset_bottom = 39.0
+text = "New Sticky note
+"
+script = ExtResource("5_0qw2d")
+
+[node name="StickNote" type="Node2D" parent="."]
+position = Vector2(248, 0)
+script = ExtResource("6_jjqlx")
+
+[node name="Control" type="Control" parent="StickNote"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 88.0
+offset_bottom = 91.0
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="TextEdit" parent="StickNote"]
+offset_right = 88.0
+offset_bottom = 91.0
+placeholder_text = "Type here"
+metadata/_edit_use_anchors_ = true
 
 [connection signal="gui_input" from="Panel/VBox/TextureRect" to="." method="_on_texture_rect_gui_input"]
