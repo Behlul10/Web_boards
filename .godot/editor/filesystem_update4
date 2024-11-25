@@ -1,9 +1,0 @@
-res://Scenes/cef.tscn
-res://Scenes/searchBar.tscn
-res://Scenes/panel.tscn
-res://add_button.gd
-res://add_sticky_button.gd
-res://Scenes/add_button.tscn
-res://node_2d.gd
-res://Scripts/browse.gd
-res://Scenes/StickyNote.tscn

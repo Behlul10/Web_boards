@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732034335
+::res://::1732551803
 ::res://addons/::1728775163
 ::res://addons/gdcef/::1728775163
 plugin.cfg::TextFile::-1::1728775163::0::1::::<><>::
@@ -32,19 +32,19 @@ demos.png::CompressedTexture2D::6861716387299735032::1728775163::1730863088::1::
 icon.svg::CompressedTexture2D::4634279404712815023::1728750300::1730863088::1::::<><>::
 srch-bg1.png::CompressedTexture2D::3785743513916683101::1730116575::1730863088::1::::<><>::
 srch-bg.png::CompressedTexture2D::9113396779110268740::1730116551::1730863088::1::::<><>::
-::res://cef_artifacts/::1732034331
-debug.log::TextFile::-1::1732033313::0::1::::<><>::
+::res://cef_artifacts/::1732551799
+debug.log::TextFile::-1::1732546928::0::1::::<><>::
 gdcef.gdextension::GDExtension::-1::1727127784::0::1::::<><>::
-::res://cef_artifacts/cache/::1732033318
+::res://cef_artifacts/cache/::1732546929
 000003.log::TextFile::-1::1728780527::0::1::::<><>::
-LocalPrefs.json::JSON::-1::1732027222::0::1::::<><>::
-::res://cef_artifacts/cache/blob_storage/::1732033313
-::res://cef_artifacts/cache/blob_storage/a3485d07-ed36-40bc-a519-93fecb033080/::1732033313
+LocalPrefs.json::JSON::-1::1732492187::0::1::::<><>::
+::res://cef_artifacts/cache/blob_storage/::1732546928
+::res://cef_artifacts/cache/blob_storage/956d9a44-2374-45ac-af00-62deccc9e75e/::1732546928
 ::res://cef_artifacts/cache/Cache/::1728780527
-::res://cef_artifacts/cache/Cache/Cache_Data/::1732033313
+::res://cef_artifacts/cache/Cache/Cache_Data/::1732546928
 ::res://cef_artifacts/cache/Code Cache/::1728780527
-::res://cef_artifacts/cache/Code Cache/js/::1732032099
-::res://cef_artifacts/cache/Code Cache/js/index-dir/::1732033313
+::res://cef_artifacts/cache/Code Cache/js/::1732546929
+::res://cef_artifacts/cache/Code Cache/js/index-dir/::1732546925
 ::res://cef_artifacts/cache/Code Cache/wasm/::1728780527
 ::res://cef_artifacts/cache/Code Cache/wasm/index-dir/::1728780527
 ::res://cef_artifacts/cache/component_crx_cache/::1728835461
@@ -57,7 +57,7 @@ LocalPrefs.json::JSON::-1::1732027222::0::1::::<><>::
 ::res://cef_artifacts/cache/File System/000/t/::1732026850
 ::res://cef_artifacts/cache/File System/000/t/Paths/::1732026850
 000003.log::TextFile::-1::1732026850::0::1::::<><>::
-::res://cef_artifacts/cache/File System/Origins/::1732026850
+::res://cef_artifacts/cache/File System/Origins/::1732492132
 000003.log::TextFile::-1::1730941726::0::1::::<><>::
 ::res://cef_artifacts/cache/GPUCache/::1728780527
 ::res://cef_artifacts/cache/GraphiteDawnCache/::1728780527
@@ -75,39 +75,39 @@ LocalPrefs.json::JSON::-1::1732027222::0::1::::<><>::
 ::res://cef_artifacts/cache/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/::1732026894
 000004.log::TextFile::-1::1732026896::0::1::::<><>::
 ::res://cef_artifacts/cache/Local Storage/::1728780527
-::res://cef_artifacts/cache/Local Storage/leveldb/::1732033313
-000050.log::TextFile::-1::1732033318::0::1::::<><>::
-::res://cef_artifacts/cache/Network/::1732033313
+::res://cef_artifacts/cache/Local Storage/leveldb/::1732546928
+000054.log::TextFile::-1::1732546929::0::1::::<><>::
+::res://cef_artifacts/cache/Network/::1732546929
 ::res://cef_artifacts/cache/Service Worker/::1728836052
 ::res://cef_artifacts/cache/Service Worker/CacheStorage/::1728836051
-::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/::1732026892
-index.txt::TextFile::-1::1732026890::0::1::::<><>::
+::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/::1732492152
+index.txt::TextFile::-1::1732492152::0::1::::<><>::
 ::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/8ba623e7-4b27-4ea7-8e23-fd7a5d121b3c/::1732026897
-::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/8ba623e7-4b27-4ea7-8e23-fd7a5d121b3c/index-dir/::1730941739
+::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/8ba623e7-4b27-4ea7-8e23-fd7a5d121b3c/index-dir/::1732492132
 ::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/08fcb762-50fd-419e-9f6a-522837d5dd31/::1730941780
 ::res://cef_artifacts/cache/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/08fcb762-50fd-419e-9f6a-522837d5dd31/index-dir/::1730941800
-::res://cef_artifacts/cache/Service Worker/Database/::1732033313
+::res://cef_artifacts/cache/Service Worker/Database/::1732546928
 000003.log::TextFile::-1::1732026898::0::1::::<><>::
 ::res://cef_artifacts/cache/Service Worker/ScriptCache/::1732026897
 ::res://cef_artifacts/cache/Service Worker/ScriptCache/index-dir/::1732026888
-::res://cef_artifacts/cache/Session Storage/::1732033313
-000007.log::TextFile::-1::1732033318::0::1::::<><>::
+::res://cef_artifacts/cache/Session Storage/::1732546928
+000011.log::TextFile::-1::1732546929::0::1::::<><>::
 ::res://cef_artifacts/cache/ShaderCache/::1728780527
 ::res://cef_artifacts/cache/Shared Dictionary/::1728780527
 ::res://cef_artifacts/cache/Shared Dictionary/cache/::1728780527
 ::res://cef_artifacts/cache/Shared Dictionary/cache/index-dir/::1728780527
-::res://cef_artifacts/cache/shared_proto_db/::1732026850
-000003.log::TextFile::-1::1730941785::0::1::::<><>::
-::res://cef_artifacts/cache/shared_proto_db/metadata/::1732026850
-000003.log::TextFile::-1::1732026850::0::1::::<><>::
-::res://cef_artifacts/cache/VideoDecodeStats/::1732026850
+::res://cef_artifacts/cache/shared_proto_db/::1732492133
+000003.log::TextFile::-1::1732492253::0::1::::<><>::
+::res://cef_artifacts/cache/shared_proto_db/metadata/::1732492133
+000003.log::TextFile::-1::1732492133::0::1::::<><>::
+::res://cef_artifacts/cache/VideoDecodeStats/::1732492133
 ::res://cef_artifacts/cache/WebStorage/::1730941792
 ::res://cef_artifacts/cache/WebStorage/1/::1728835882
-::res://cef_artifacts/cache/WebStorage/1/CacheStorage/::1732026850
-index.txt::TextFile::-1::1732026850::0::1::::<><>::
+::res://cef_artifacts/cache/WebStorage/1/CacheStorage/::1732492153
+index.txt::TextFile::-1::1732492147::0::1::::<><>::
 ::res://cef_artifacts/cache/WebStorage/1/IndexedDB/::1728835882
-::res://cef_artifacts/cache/WebStorage/1/IndexedDB/indexeddb.leveldb/::1732026850
-000003.log::TextFile::-1::1732026855::0::1::::<><>::
+::res://cef_artifacts/cache/WebStorage/1/IndexedDB/indexeddb.leveldb/::1732492147
+000003.log::TextFile::-1::1732492153::0::1::::<><>::
 ::res://cef_artifacts/cache/WebStorage/7/::1730941729
 ::res://cef_artifacts/cache/WebStorage/7/IndexedDB/::1730941729
 ::res://cef_artifacts/cache/WebStorage/7/IndexedDB/indexeddb.leveldb/::1730941729
@@ -126,13 +126,15 @@ verified_contents.json::JSON::-1::315532800::0::1::::<><>::
 ::res://cef_artifacts/cache/WidevineCdm/4.10.2830.0/_platform_specific/::1728835461
 ::res://cef_artifacts/cache/WidevineCdm/4.10.2830.0/_platform_specific/win_x64/::1728835461
 ::res://cef_artifacts/locales/::1727127738
-::res://Scenes/::1732033320
-cef.tscn::PackedScene::5318781343081948518::1732033320::0::1::::<><>::res://Scripts/browse.gd<>uid://b7a4504cp8htv::::res://Assets/icon.svg<>uid://bbn7lr4al08hs::::res://Scenes/searchBar.tscn
-panel.tscn::PackedScene::660837942139274185::1732033312::0::1::::<><>::res://Scripts/browse.gd
-searchBar.tscn::PackedScene::2485409963347392444::1732033312::0::1::::<><>::uid://bt63v32tvud3j::::res://Assets/srch-bg1.png<>res://Scripts/search_bar.gd
-::res://Scripts/::1731949510
-browse.gd::GDScript::-1::1731949101::0::1::::<>Control<>::
+::res://Scenes/::1732551784
+add_button.tscn::PackedScene::125423726358780678::1732546927::0::1::::<><>::res://Scripts/add_button.gd<>res://Scripts/add_sticky_button.gd
+cef.tscn::PackedScene::5318781343081948518::1732546927::0::1::::<><>::res://Scripts/browse.gd<>uid://b7a4504cp8htv::::res://Assets/icon.svg<>uid://bbn7lr4al08hs::::res://Scenes/searchBar.tscn<>res://Scripts/add_button.gd<>res://Scripts/add_sticky_button.gd<>res://Scripts/node_2d.gd
+searchBar.tscn::PackedScene::2485409963347392444::1732546927::0::1::::<><>::uid://bt63v32tvud3j::::res://Assets/srch-bg1.png<>res://Scripts/search_bar.gd
+StickyNote.tscn::PackedScene::1726251993695373977::1732551784::0::1::::<><>::res://Scripts/node_2d.gd
+::res://Scripts/::1732493044
+add_button.gd::GDScript::-1::1732081278::0::1::::<>Button<>::
+add_sticky_button.gd::GDScript::-1::1732081278::0::1::::<>Button<>::
+browse.gd::GDScript::-1::1732083832::0::1::::<>Control<>::
 ControlsSingleton.gd::GDScript::-1::1731797840::0::1::::<>Node<>::
-loading_G.gd::GDScript::-1::1728781149::0::1::::<>Control<>::
-loading_G_m+K.gd::GDScript::-1::1728834856::0::1::::<>Control<>::
+node_2d.gd::GDScript::-1::1732083982::0::1::::<>Node2D<>::
 search_bar.gd::GDScript::-1::1731949510::0::1::::<>Control<>::

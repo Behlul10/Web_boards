@@ -3,9 +3,9 @@
 [ext_resource type="Script" path="res://Scripts/browse.gd" id="1_uvr43"]
 [ext_resource type="Texture2D" uid="uid://b7a4504cp8htv" path="res://Assets/icon.svg" id="2_2t17t"]
 [ext_resource type="PackedScene" uid="uid://bbn7lr4al08hs" path="res://Scenes/searchBar.tscn" id="3_y7bs6"]
-[ext_resource type="Script" path="res://add_button.gd" id="4_mdkde"]
-[ext_resource type="Script" path="res://add_sticky_button.gd" id="5_0qw2d"]
-[ext_resource type="Script" path="res://node_2d.gd" id="6_jjqlx"]
+[ext_resource type="Script" path="res://Scripts/add_button.gd" id="4_mdkde"]
+[ext_resource type="Script" path="res://Scripts/add_sticky_button.gd" id="5_0qw2d"]
+[ext_resource type="Script" path="res://Scripts/node_2d.gd" id="6_jjqlx"]
 
 [node name="GUI" type="Control"]
 layout_mode = 3

@@ -1,5 +1,3 @@
-2024/11/20-01:39:31.429 70ac Reusing MANIFEST C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\Local Storage\leveldb/MANIFEST-000001
-2024/11/20-01:39:31.436 70ac Recovering log #50
-2024/11/20-01:39:31.436 70ac Level-0 table #53: started
-2024/11/20-01:39:31.443 70ac Level-0 table #53: 42897 bytes OK
-2024/11/20-01:39:31.449 70ac Delete type=0 #50
+2024/11/25-10:01:45.134 78f4 Reusing MANIFEST C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\Local Storage\leveldb/MANIFEST-000001
+2024/11/25-10:01:45.152 78f4 Recovering log #54
+2024/11/25-10:01:45.154 78f4 Reusing old log C:\Users\Behlu\OneDrive\Documents\GitHub\new\Web_boards\cef_artifacts\cache\Local Storage\leveldb/000054.log 
